@@ -463,14 +463,14 @@ margin-left: 40px;
 word-wrap: break-word;
 margin-right: 250px;
 padding-top: 20px;
-font-size: 40px;
+font-size: 24px;
 line-height: 65px;
 color: white;
 }
 .contactcontent .email{
 font-weight: bold;
 text-decoration: none;
-font-size: 42px;
+font-size: 25px;
 color: #0FA3B1;
 }
 
@@ -501,6 +501,7 @@ color: white;
 background-color: white;
 }
 
+
 .workcontainer {
 display: flex;
 justify-content: space-between; 
@@ -511,6 +512,7 @@ margin-right: 40px;
 
 .workcontent {
 flex: 1;
+position: relative;
 margin: 20px;
 padding: 20px;
 background-color: rgb(5, 38, 79); 
@@ -525,6 +527,7 @@ word-wrap: break-word;
 font-size: 28px;
 margin-bottom: 10px;
 }
+
 
 .linkcontent {
 font-size: 22px;
@@ -552,6 +555,33 @@ padding-top: 50px;
 .workcontent a:hover{
   font-size: 50px;
   color:#89ceeb;
+}
+.tooltip1{
+  top: 250px;
+  margin-top: 20px;
+  margin-left: -50px;
+  opacity: 0;
+}
+.tooltip2{
+  top: 275px;
+  margin-top: 20px;
+  margin-left: -50px;
+  opacity: 0;
+}
+
+.code:hover .tooltip1,.code:hover .tooltip2{
+  position: absolute;
+
+  opacity: 1;
+  font-size: small;
+  padding-left: 10px;
+  color: whitesmoke;
+}
+
+footer{
+  color: rgb(194, 181, 181);
+  margin-left: 40px;
+  padding-bottom: 75px;
 }
 
 
